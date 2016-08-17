@@ -108,7 +108,7 @@
 		fi
 		
 		# install needed packages
-    apt-get -y install libgeoip-dev apache2 imagemagick postgresql jq elasticsearch ejabberd erlang-p1-pgsql  
+    apt-get -y install libgeoip-dev apache2 imagemagick postgresql jq elasticsearch ejabberd erlang-p1-pgsql git 
     
     if [[ " ${RUNNING_OS}:${RUNNING_VERSION} " =~ "Ubuntu:16.04" ]];
 			then
